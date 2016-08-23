@@ -1,2 +1,7 @@
 # my-books
-Book for you
+npm install
+start: node app.js
+### Book for you
+
+I need some people contribute this app. Make for everyone
+
