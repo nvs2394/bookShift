@@ -1,17 +1,18 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const ObjectId = mongoose.Schema.Types.ObjectId;
 
-var bookSchema = new Schema({
-    user_id:ObjectId,
-    name:String,
-    author:String,
-    description:String,
-    date_created:{
-        type:Date,
-        default:Date.now
+const bookSchema = new Schema({
+    user_id: ObjectId,
+    name: String,
+    author: String,
+    description: String,
+    date_created: {
+        type: Date,
+        default: Date.now
     }
 })
 
-var Book= mongoose.model('Book',bookSchema);
+const Book = mongoose.model('Book', bookSchema);
 
 module.exports = Book;

@@ -1,12 +1,13 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const ObjectId = mongoose.Schema.Types.ObjectId;
 
 var ratingSchema = new Schema({
     user_id:{
-    	type:Objectid
+    	type:ObjectId
     },
     book_id:{
-    	type:Objectid
+    	type:ObjectId
     },
     point:{
     	type:Number,

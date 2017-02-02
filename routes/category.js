@@ -1,3 +1,5 @@
+var express = require('express');
+var router = express.Router();
 /*
 	Category
 */
@@ -10,3 +12,4 @@
 //Get all categories
 
 //Get detail a category
+module.exports = router;

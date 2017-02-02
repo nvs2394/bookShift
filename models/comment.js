@@ -1,12 +1,13 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+var ObjectId = mongoose.Schema.Types.ObjectId;
 
 var commentSchema = new Schema({
     user_id:{
-    	type:Objectid
+    	type:ObjectId
     },
     book_id:{
-    	type:Objectid
+    	type:ObjectId
     },
     content:{
     	type:String,

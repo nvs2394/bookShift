@@ -4,13 +4,13 @@
   "description": "Book for you",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nvs2394/my-books.git"
   },
-  "author": "",
+  "author": "nvs2394",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nvs2394/my-books/issues"
@@ -18,8 +18,14 @@
   "homepage": "https://github.com/nvs2394/my-books#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
     "express": "^4.14.0",
+    "mocha": "^3.2.0",
     "mongoose": "^4.5.9",
-    "path": "^0.12.7"
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "request": "^2.79.0"
   }
 }

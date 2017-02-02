@@ -1,3 +1,6 @@
+var express = require('express');
+var router = express.Router();
+
 /*
 	User ROUTE
 */
@@ -13,3 +16,4 @@
 
 
 //Get top user
+module.exports = router;
