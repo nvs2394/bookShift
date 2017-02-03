@@ -1,13 +1,15 @@
 var express = require('express');
 var router = express.Router();
+var authController = require('../controllers/auth');
+
 //SignUp
-router.get('/signup',(req,res)=>{
-	res.jsonp('This is test');
-})
+router.post('/signup',authController.signup)
 
 //LogIn
 
+router.post('/login',authController.login);
 
 //Logout
+router.post('/logout',authController.logout);
 
 module.exports = router;
