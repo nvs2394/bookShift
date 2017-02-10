@@ -5,13 +5,15 @@ How to run it:
   node app.js.``
 ### About thithutoeic.vn
 ``Web application(client-admin)  
-  iOS application
-  android application``
+  
+  iOS application
+  
+  android application``
 #### Web
-     AngularJS for client side
-     NodeJS for server side
-     MongoDB
-     Nginx
-     VPS digital ocean
-     SSL free
+     -AngularJS for client side
+     -NodeJS for server side
+     -MongoDB
+     -Nginx
+     -VPS digital ocean
+     -SSL free
      
