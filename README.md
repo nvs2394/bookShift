@@ -1,8 +1,9 @@
-# my-books
-npm install<br />
-node app.js.
+# thithutoeic.vn
+How to run it:
 
-### Book for you
-
-I need some people contribute this app. Make for everyone.
-``bookShift is an opensource project.When you have a old book. You want to share it to everyone.You can post it in bookshare . We will show your book to everyone.```This Project to make better 
+``npm install<br />
+  node app.js.``
+### About thithutoeic.vn
+``Web application(client-admin)  
+  iOS application
+  android application``
