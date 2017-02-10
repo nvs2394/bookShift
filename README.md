@@ -4,11 +4,7 @@ How to run it:
 ``npm install
   node app.js.``
 ### About thithutoeic.vn
-``Web application(client-admin)  
-  
-  iOS application
-  
-  android application``
+``Web application(client-admin)  | iOS application | android application``
 #### Web
      -AngularJS for client side
      -NodeJS for server side
