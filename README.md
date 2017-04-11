@@ -1,13 +1,13 @@
-# thithutoeic.vn
+# tocdep.vn
 How to run it:
 
 ``npm install
   node app.js.``
-### About thithutoeic.vn
+### About tocdep.vn
 ``Web application(client-admin)  | iOS application | android application``
 #### Web
-     -AngularJS for client side
-     -NodeJS for server side
+     -Angular2 for admin
+     -NodeJS for server side
      -MongoDB
      -Nginx
      -VPS digital ocean
