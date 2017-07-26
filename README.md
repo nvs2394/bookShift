@@ -1,12 +1,12 @@
-# tocdep.vn
+# learnme.vn
 How to run it:
 
 ``npm install
   node app.js.``
-### About tocdep.vn
-``Web application(client-admin)  | iOS application | android application``
+### About learme.vn
+``Web application(client-admin)  | React-native(iOS/Android)
 #### Web
-     -Angular2 for admin
+     -React
      -NodeJS for server side
      -MongoDB
      -Nginx
