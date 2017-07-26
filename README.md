@@ -4,7 +4,7 @@ How to run it:
 ``npm install
   node app.js.``
 ### About learme.vn
-``Web application(client-admin)  | React-native(iOS/Android)
+``Web application(client-admin)  | React-native(iOS/Android)``
 #### Web
      -React
      -NodeJS for server side
