@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Trang chủ",
+    "icon": "fa-dashboard",
+    "href": "/"
+  },
+  {
+    "title": "Sản phẩm",
+    "icon": "fa-shopping-cart",
+    "href": "/product"
+  },
+  {
+    "title": "Hoá đơn",
+    "icon": "fa-shopping-cart",
+    "href": "/product"
+  },
+  {
+    "title": "Thống kê",
+    "icon": "fa-line-chart",
+    "href": "/statistic"
+  },
+  {
+    "title": "Cài đặt",
+    "icon": "fa-cog",
+    "href": "/setting"
+  }
+]

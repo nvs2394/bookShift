@@ -1,0 +1,15 @@
+{
+  "env": {
+    "node": true, "browser": true, "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [ 1, { "extensions": [ ".js", ".jsx" ] } ],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "to" ]
+    }],
+    "comma-dangle": ["error", {"functions": "ignore"}]
+  }
+}
