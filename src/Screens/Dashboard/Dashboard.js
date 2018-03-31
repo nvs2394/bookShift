@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 
-import DashboardComponent from '../../Components/Dashboard';
+// import DashboardComponent from '../../Components/Dashboard';
 import NavigationContainer from '../../Containers/Navigation';
 
 const Dashboard = () => (
@@ -9,7 +9,7 @@ const Dashboard = () => (
     <NavigationContainer />
     <div className="content-wrapper">
       <Container fluid>
-        <DashboardComponent />
+        {/* <DashboardComponent /> */}
       </Container>
     </div>
   </div>
