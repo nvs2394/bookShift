@@ -7,7 +7,13 @@ import SidebarItem from '../SidebarItem';
 
 const Sidebar = props => (
   <Nav navbar className="navbar-sidenav">
-    {props.sidebar.map(menuItem => <SidebarItem title={menuItem.title} icon={menuItem.icon} />)}
+    {props.sidebar.map(menuItem => (
+      <SidebarItem
+        key={menuItem.title}
+        title={menuItem.title}
+        icon={menuItem.icon}
+      />
+    ))}
   </Nav>
 );
 

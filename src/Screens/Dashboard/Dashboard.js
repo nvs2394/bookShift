@@ -1,17 +1,13 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 
 // import DashboardComponent from '../../Components/Dashboard';
-import NavigationContainer from '../../Containers/Navigation';
+import Cms from '../Cms';
 
 const Dashboard = () => (
   <div>
-    <NavigationContainer />
-    <div className="content-wrapper">
-      <Container fluid>
-        {/* <DashboardComponent /> */}
-      </Container>
-    </div>
+    <Cms>
+      <p>Dashboard</p>
+    </Cms>
   </div>
 );
 
